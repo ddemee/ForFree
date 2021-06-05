@@ -1,6 +1,6 @@
 /* Defaults */
 body {
-    background-color: #0a1931;
+    background-color: transparent;
 }
 h1 {
     font-size: 35px;
@@ -10,6 +10,7 @@ h1 {
 #header{
     background-color: #0a81ab;
     padding: 10px 0;
+    text-transform: uppercase;
 }
 .logo {
     max-width: 90px;
@@ -44,7 +45,7 @@ h1 {
 .main-text {
     margin-top: 150px;
     width: 50%;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 /*  */
