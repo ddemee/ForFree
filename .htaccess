@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteRule ^main?$ index.html
+RewriteRule ^sdwan$ sdwan.html
+RewriteRule ^contactus$ contactus.html
+RewriteRule ^networksecurity$ networksecurity.html
+RewriteRule ^nextgeneration$ nextgeneration.html
