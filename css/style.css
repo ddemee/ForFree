@@ -48,7 +48,7 @@ h1 {
     color: rgb(0, 0, 0);
 }
 
-/*  */
+/*  Kidness */
 #kidness{
     padding: 100px 0;
     background-image:url(../img/rainbow.jpg);
@@ -63,6 +63,15 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+/* Newsss */
+#news {
+  padding: 50px 0;
+}
+/* Switcher */
+#switcher {
+  padding: 50px 0;
+  background-color: whitesmoke;
 }
 /* ========== FOOTER =================== */
 iframe {
