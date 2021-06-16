@@ -8,7 +8,7 @@ h1 {
 }
 /* Header  */
 #header{
-    background-color: #0a81ab;
+    background-image: linear-gradient(to right, rgb(0, 132, 255) , rgb(209, 86, 137));
     padding: 10px 0;
     text-transform: uppercase;
 }
@@ -57,10 +57,7 @@ h1 {
 /*  Kidness */
 #kidness{
     padding: 100px 0;
-    background-image:url(../img/rainbow.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: linear-gradient(to right, rgb(0, 132, 255) , rgb(209, 86, 137));
     width: 100%;
     color:white;
     
@@ -81,11 +78,7 @@ h1 {
 /* Switcher */
 #switcher {
   padding: 100px 0;
-  background-image: url(../img/background.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+  background-image: linear-gradient(to right, rgb(0, 132, 255) , rgb(209, 86, 137));
 }
 .list-group-item-action {
   margin-bottom: 20px;
