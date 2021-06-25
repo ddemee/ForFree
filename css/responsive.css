@@ -2,6 +2,20 @@
     .container {
         max-width: 1090px;
     }
+    /* MAIN */
+    #main img {
+        max-width: 500px;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        right: 200px;
+    }
+    .main-text h1 {
+        font-size: 3.5rem;
+      }
+      .main-text p {
+        font-size: 3rem;
+      }
  }
 
 @media (max-width: 1199.98px) {
@@ -10,9 +24,43 @@
     }
 
 }
-@media (max-width: 991.98px) { 
+@media (max-width: 991.98px) {
+     /* MAIN */
+     #main img {
+        max-width: 500px;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        right: 50px;
+    } 
 }
  @media (max-width: 769.98px) { 
+    /* MAIN */
+    #main img {
+        max-width: 500px;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        right: 0px;
+    } 
+    #main {
+        height: 90vh;
+        position: relative; 
+        padding: 10px 0;
+    }
+    .main-text{
+    
+        z-index: 4;
+        position: absolute;
+        top: 20px;
+        left: 10px;
+    }
+    .main-text h1 {
+        font-size: 3rem;
+    }
+    .main-text p {
+        font-size: 2.5rem;
+    }
     /* ------------- */
     .footer-form {
         margin-top: 30px;

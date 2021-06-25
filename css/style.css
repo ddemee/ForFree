@@ -4,7 +4,6 @@ body {
 }
 h1 {
     font-size: 35px;
-    margin: 0 0 50px 0;
 }
 /* Header  */
 #header{
@@ -31,7 +30,7 @@ h1 {
     padding: 100px 0;
 }
 #main img {
-    max-width: 500px;
+    max-width: 600px;
     width: 100%;
     position: absolute;
     bottom: 0;
