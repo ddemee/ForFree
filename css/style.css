@@ -89,6 +89,9 @@ h1 {
     justify-content: space-between;
     align-items: center;
 }
+hr {
+  margin: 30px 0;
+}
 .videosection  div {
   width: 50%;
 }
@@ -97,7 +100,7 @@ h1 {
   font-family: 'Bebas Neue', cursive;
 }
 .videosection p {
-  font-size: 20px;
+  font-size: 18px;
 }
 /* Newsss */
 #news {
@@ -335,6 +338,10 @@ iframe {
 #aboutus{
   padding: 80px 0;
 }
+#aboutus h1 {
+  color: green;
+  margin-bottom: 25px;
+}
 #aboutus img {
   width: 40%;
   margin: 0 auto;
@@ -343,6 +350,7 @@ iframe {
   font-size: 30px;
   margin-bottom: 50px;
 }
+
 .col-4  {
   width: 30%;
 }
