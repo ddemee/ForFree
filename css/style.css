@@ -29,6 +29,11 @@ h1 {
 }
 .burgerbar {
   display: none;
+  background-color: #00AF91;
+  border: none;
+}
+.burgerbar:hover {
+  background-color: #027967;
 }
 .offcanvas .nav {
   display: flex;
