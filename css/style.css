@@ -342,3 +342,8 @@ iframe {
   padding: 150px 0;
   
 }
+/* Policies */
+#policies li {
+  list-style-type: decimal;
+}
+/* Help  */
