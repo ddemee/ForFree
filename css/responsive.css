@@ -97,4 +97,8 @@
     #footer textarea{
             width: 250px;
     }
+    /* ABOUT */
+    #aboutus img {
+        width: 100%;
+    }
 }
