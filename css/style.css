@@ -23,8 +23,10 @@ h1 {
 @keyframes spin { 
   from { 
       transform: rotate(0deg); 
+      opacity: 0;
   } to { 
       transform: rotate(360deg); 
+      opacity: 100;
   }
 }
 #navbar {
@@ -56,11 +58,12 @@ h1 {
   background-color: #D3E0EA;
   height: 90vh;
   position: relative; 
-  padding: 100px 0;
+  padding: 5% 0;
 }
 #main img {
-  max-width: 600px;
+  max-width: 570px;
   width: 100%;
+  min-height: 600px;
   position: absolute;
   bottom: 0;
   right: 250px;
