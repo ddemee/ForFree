@@ -17,6 +17,16 @@ h1 {
 .logo {
     max-width: 90px;
 }
+.logo:hover {
+  animation: spin 1s ease;
+}
+@keyframes spin { 
+  from { 
+      transform: rotate(0deg); 
+  } to { 
+      transform: rotate(360deg); 
+  }
+}
 #navbar {
     display: flex;
     justify-content: space-between;
@@ -335,20 +345,23 @@ iframe {
   }
 }
 /* About US */
-#aboutus{
+.aboutus{
   padding: 80px 0;
 }
-#aboutus h1 {
+.aboutus h1 {
   color: green;
   margin-bottom: 25px;
 }
-#aboutus img {
+.aboutus img {
   width: 40%;
   margin: 0 auto;
 }
-#aboutus h3 {
+.aboutus h3 {
   font-size: 30px;
   margin-bottom: 50px;
+}
+.aboutus h2 {
+  margin-bottom: 2.5rem;
 }
 
 .col-4  {
@@ -357,11 +370,11 @@ iframe {
 .col-8 {
   width: 70%;
 }
-#aboutus .list-group-item {
+.aboutus .list-group-item {
   padding: 5px 10px;
   border-radius: 5px;
 }
-#aboutus .list-group-item-action {
+.aboutus .list-group-item-action {
   margin: 5px 0;
   height: auto;
   max-width: 250px;
@@ -370,6 +383,19 @@ iframe {
 }
 .list-group .active {
   background-color: green;
+}
+.aboutus {
+  background-color: #D3E0EA;
+
+}
+.bg2 {
+  background-color: #F4F9F9;
+}
+.col-8 {
+  background-color: transparent;
+}
+.aboutus .card {
+  background-color: transparent;
 }
 /* Policies */
 #policies li {
