@@ -430,6 +430,7 @@ iframe {
 /* Help  */
 .help {
   padding: 3rem 0;
+  background-color: #D3E0EA;
 }
 .help p {
   color: green;
