@@ -8,6 +8,28 @@ body {
 h1 {
     font-size: 35px;
 }
+h4 {
+  font-size: 2rem;
+  margin-bottom: 50px;
+  color: green;
+}
+img {
+  width: 100%;
+}
+summary {
+  font-size: 1.2rem;
+}
+
+details > summary {
+  list-style: none;
+  margin: 0.8rem 0;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+textarea {
+  resize: none;
+}
 /* Header  */
 #header{
     background-color: #F4F9F9;
@@ -351,18 +373,12 @@ iframe {
 .aboutus{
   padding: 80px 0;
 }
-.aboutus h1 {
-  color: green;
-  margin-bottom: 25px;
-}
+
 .aboutus img {
   width: 40%;
   margin: 0 auto;
 }
-.aboutus h3 {
-  font-size: 30px;
-  margin-bottom: 50px;
-}
+
 .aboutus h2 {
   margin-bottom: 2.5rem;
 }
@@ -412,3 +428,79 @@ iframe {
   margin: 15px 0 25px;
 }
 /* Help  */
+.help {
+  padding: 3rem 0;
+}
+.help p {
+  color: green;
+}
+/* CONTACT US  */
+.main-block {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+min-height: 90vh;
+}
+form {
+padding: 25px;
+margin: 25px;
+box-shadow: 0 2px 5px #f5f5f5; 
+background: #f5f5f5; 
+}
+.contactus .fas {
+margin: 25px 10px 0;
+font-size: 72px;
+color: #fff;
+}
+.contactus .fa-envelope {
+transform: rotate(-20deg);
+}
+.contactus .fa-at , .fa-mail-bulk{
+transform: rotate(10deg);
+}
+input, textarea {
+width: calc(100% - 18px);
+padding: 8px;
+margin-bottom: 20px;
+border: 1px solid #1c87c9;
+outline: none;
+}
+input::placeholder {
+color: #666;
+}
+.contactus button {
+width: 100%;
+padding: 10px;
+border: none;
+background: #1c87c9; 
+font-size: 16px;
+font-weight: 400;
+color: #fff;
+}
+.contactus button:hover {
+background: #2371a0;
+}    
+@media (min-width: 568px) {
+.main-block {
+flex-direction: row;
+}
+.left-part, form {
+width: 50%;
+}
+.contactus .fa-envelope {
+margin-top: 0;
+margin-left: 20%;
+}
+.contactus .fa-at {
+margin-top: -10%;
+margin-left: 65%;
+}
+.contactus .fa-mail-bulk {
+margin-top: 2%;
+margin-left: 28%;
+}
+}
+.contactus {
+  background-color: #D3E0EA;
+}
