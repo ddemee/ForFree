@@ -19,13 +19,27 @@ img {
 summary {
   font-size: 1.2rem;
 }
-
+details {
+  margin: 0.2rem 0;
+  padding: 0.5rem ;
+  border-radius: 10px;
+  cursor: pointer;
+}
+details:hover {
+  background-color: #F4F9F9;
+  
+}
 details > summary {
   list-style: none;
-  margin: 0.8rem 0;
+  margin: 0.2rem 0;
+  
 }
 details > summary::-webkit-details-marker {
   display: none;
+}
+details p {
+  font-size: 1.05rem;
+  line-height: 1.2;
 }
 textarea {
   resize: none;
