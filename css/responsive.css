@@ -58,6 +58,9 @@
         font-size: 2.5rem;
         font-family: 'Bebas Neue', cursive;
     }
+    .downloads {
+        flex-direction: column;
+      }
     /* VIDEO SECTION */
     .videosection {
         display: flex;
@@ -87,6 +90,9 @@
         font-size: 3.50rem;
         font-family: 'Bebas Neue', cursive;
     }
+    .downloads {
+        flex-direction: row;
+      }
  }
 
 @media (min-width: 1200px) {
