@@ -77,12 +77,12 @@
     .row {
         flex-direction: row;
       }
-      #switcher .col-4,.col-8 {
-        width:40%;
+      #switcher .col-4 {
+        width:30%;
       }
       #switcher .col-8 {
         margin: 0 auto;
-        width: 40%;
+        width: 55%;
       }
 }
 
