@@ -6,7 +6,10 @@ body {
     background-color: transparent;
 }
 h1 {
-    font-size: 35px;
+  font-size: 2rem;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 600;
+  margin-bottom: 35px
 }
 h4 {
   font-size: 2rem;
@@ -16,6 +19,9 @@ h4 {
 img {
   width: 100%;
 }
+
+
+/* ---------------- */
 summary {
   font-size: 1.2rem;
 }
@@ -75,8 +81,10 @@ textarea {
     font-size: 24px;
     font-family: 'Bebas Neue', cursive;
 }
-.burgerbar {
+.nav-menu {
   display: none;
+} 
+.burgerbar {
   background-color: #00AF91;
   border: none;
 }
@@ -89,39 +97,21 @@ textarea {
   align-items: center;
   justify-content: space-between;
 }
-/*  */
+/* MAIN */
 #main {
   background-color: #D3E0EA;
-  height: 90vh;
   position: relative; 
-  padding: 5% 0;
+  padding: 10% 0 10px;
 }
-#main img {
-  max-width: 570px;
+
+.downloads img {
+  border-radius: 15px;
+  max-width:190px;
   width: 100%;
-  min-height: 600px;
-  position: absolute;
-  bottom: 0;
-  right: 250px;
-}
-.main-div {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.main-text {
-    margin-top: 150px;
-    width: 50%;
-    color: rgb(0, 0, 0);
-}
-.main-text h1 {
-  font-size: 4rem;
-  font-family: 'Bebas Neue', cursive;
-  font-weight: 600;
-  margin-bottom: 35px
+  margin: 10px 0;
 }
 .main-text p {
-  font-size: 3.50rem;
+  font-size: 1.5rem;
   font-family: 'Bebas Neue', cursive;
 }
 
@@ -133,17 +123,11 @@ textarea {
     color:rgb(0, 0, 0);
     
 }
-.videosection {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+
 hr {
   margin: 30px 0;
 }
-.videosection  div {
-  width: 50%;
-}
+
 .videosection h2 {
   font-size: 30px;
   font-family: 'Bebas Neue', cursive;
@@ -452,6 +436,7 @@ iframe {
 .help p {
   color: green;
 }
+
 /* CONTACT US  */
 .main-block {
 display: flex;
