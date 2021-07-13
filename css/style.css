@@ -380,22 +380,26 @@ iframe {
 }
 .social-icons a.facebook:hover
 {
-  background-color:#3b5998
+  background-color:#3b5998;
 }
 .social-icons a.twitter:hover
 {
-  background-color:#00aced
+  background-color:#00aced;
+}
+.social-icons a.youtube:hover
+{
+  background-color:rgb(196, 28, 28);
 }
 .social-icons a.linkedin:hover
 {
-  background-color:#007bb6
+  background-color:#007bb6;
 }
 .social-icons a.instagram {
   font-size: 20px;
 }
 .social-icons a.instagram:hover
 {
-  background-color:#882b88
+  background-color:#882b88;
 }
 @media (max-width:767px)
 {
