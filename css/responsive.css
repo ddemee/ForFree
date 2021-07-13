@@ -24,6 +24,28 @@
         margin: 0 auto;
         
       }
+      /* NEWS */
+    
+      .split img {
+        width: 60%;
+      }
+      .split {
+        display: flex;
+        align-items: stretch;
+        justify-content: space-between;
+        position: relative;
+      }
+      .split div {
+        padding: 4rem 2rem 1rem;
+        width: 48%;
+        background-color: #F4F9F9;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .split p {
+        font-size: 1.2rem;
+      }
 
  }
 
@@ -130,7 +152,10 @@
         bottom: 0;
         right: 150px;
     }
-  
+    
+    .split img {
+      width: 50%;
+    }
 
  }
 
