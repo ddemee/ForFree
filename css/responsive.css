@@ -101,7 +101,7 @@
         margin-left: 2rem;
     }
     /*  */
-    .row {
+      .row {
         flex-direction: row;
       }
       #switcher .col-4 {
@@ -115,6 +115,13 @@
         width: 50%;
         margin: 0 auto;
         
+      }
+      /* about */
+      .aboutus .col-4 {
+        width: 30%;
+      }
+      .aboutus .col-8 {
+        width: 70%;
       }
 }
 

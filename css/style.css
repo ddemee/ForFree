@@ -214,6 +214,16 @@ hr {
 .accordion {
   padding: 80px 0;
 }
+.aboutus .col-4 {
+  width: 100%;
+  
+}
+.aboutus .col-8 {
+  width: 100%;
+}
+.aboutus .card {
+  padding: 20px 0;
+}
 /* ========== FOOTER =================== */
 iframe {
     max-width: 500px;
@@ -423,7 +433,6 @@ iframe {
 .aboutus .list-group-item-action {
   margin: 5px 0;
   height: auto;
-  max-width: 250px;
   width: 100%;
   border-radius: 15px;
 }
