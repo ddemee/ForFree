@@ -452,6 +452,24 @@ iframe {
 .aboutus .card {
   background-color: transparent;
 }
+
+#aboutus h3 {
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+.accordion {
+  padding: 80px 0;
+}
+.aboutus .col-4 {
+  width: 100%;
+  
+}
+.aboutus .col-8 {
+  width: 100%;
+}
+.aboutus .card {
+  padding: 20px 0;
+}
 /* Policies */
 #policies li {
   list-style-type: decimal;

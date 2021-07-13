@@ -4,7 +4,6 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 40%;
         margin: 25px 0;
       }
       .downloads img {
@@ -122,6 +121,10 @@
       }
       .aboutus .col-8 {
         width: 70%;
+      }
+      /*  */
+      .downloads {
+        width: 40%;
       }
 }
 
