@@ -18,8 +18,9 @@ h4 {
 }
 h5 {
   font-size: 1.5rem;
-  color: red;
+  color: Black;
   margin: 1rem 0;
+  font-weight: 800;
 }
 img {
   width: 100%;
