@@ -256,7 +256,7 @@ iframe {
 }
 .site-footer h6
 {
-  color:#49b640;
+  color:#4cee3e;
   font-size:16px;
   text-transform:uppercase;
   margin-top:5px;
@@ -442,7 +442,7 @@ iframe {
   border-radius: 15px;
 }
 .list-group .active {
-  background-color: green;
+  background-color: rgb(47, 218, 47);
 }
 .aboutus {
   background-color: #D3E0EA;
