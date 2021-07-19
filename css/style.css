@@ -164,9 +164,15 @@ hr {
   align-items: center;
   margin: 10px auto;
   border-radius: 65px 0 65px;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+  
 }
 .split p {
   margin-top: 2rem;
+}
+.split img {
+  border-radius: 15px;
 }
 
 
