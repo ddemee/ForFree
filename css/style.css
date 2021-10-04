@@ -2,6 +2,9 @@
 
 
 /* Defaults */
+html {
+  scroll-behavior: smooth;
+}
 body {
     background-color: transparent;
 }
@@ -91,8 +94,11 @@ textarea {
   display: none;
 } 
 .burgerbar {
-  background-color: #00AF91;
+  background-color: #94c83c;
   border: none;
+}
+.burgerbar:focus {
+  background-color:#94c83c;
 }
 .burgerbar:hover {
   background-color: #027967;
@@ -210,7 +216,9 @@ box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
   width: 100%;
   margin: 0 auto;
 }
-
+.suka li{
+  list-style-type: value;
+}
 /* ========== FOOTER =================== */
 iframe {
     max-width: 500px;
